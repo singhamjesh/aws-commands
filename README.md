@@ -1,7 +1,7 @@
 ## aws-commands
 Some most important aws-commands
 
-### switch a profile
+### Switch a profile
 #### in window
 ```
 setx AWS_PROFILE user1
@@ -9,4 +9,25 @@ setx AWS_PROFILE user1
 #### in mac/linux
 ```
 export AWS_PROFILE=user1
+```
+### Add a new profile
+```
+aws configure --profile <profile-name>
+```
+### List a aws profiles
+
+```
+aws configure list-profiles
+```
+### Show current profile
+```
+aws configure list
+```
+### Update existing profile value
+```
+aws configure --profile <profile-name>
+```
+### List all aws profile
+```
+aws configure list-profiles
 ```
