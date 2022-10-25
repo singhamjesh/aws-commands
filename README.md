@@ -14,7 +14,7 @@ export AWS_PROFILE=user1
 ```
 aws configure --profile <profile-name>
 ```
-### List a aws profiles
+### List all aws profiles
 
 ```
 aws configure list-profiles
@@ -27,7 +27,7 @@ aws configure list
 ```
 aws configure --profile <profile-name>
 ```
-### List all aws profile
+### List users of current profile
 ```
-aws configure list-profiles
+aws iam list-users
 ```
